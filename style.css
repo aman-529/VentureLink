@@ -1,0 +1,37 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Aug 3, 2025, 10:46:01 AM
+    Author     : zaman
+*/
+.login-bg{
+-fx-background-color: linear-gradient(to top,#0082bc,#9118fd);
+}
+.btn-login{
+ -fx-background-color: #9013fb;
+ -fx-text-fill: #FFF;
+ -fx-font-size:15px;
+ -fx-font-weight:700;
+ -fx-background-radius: 8px;
+}
+.lbl-status{
+    -fx-background-color: #ef20c2;
+    -fx-text-fill: #FFF;
+    -fx-alignment:CENTER;
+    -fx-font-size:16px;
+    -fx-background-radius: 8px;
+}
+.lbl-user{
+    -fx-text-fill: black;
+    -fx-alignment:CENTER;
+    -fx-font-size:16px;
+    -fx-font-weight:700;
+}
+.tab-pane{
+    -fx-tab-max-height:0px;
+}
+.tab-pane .tab-header-area{
+    visibility: hidden;
+}
