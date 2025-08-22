@@ -1,0 +1,54 @@
+
+
+
+.top-from{
+    -fx-background-color: #fff;
+    -fx-border-color: purple;
+    -fx-borer-width: .2px .2px .4px .2px;
+}
+.close{
+    -fx-background-color: transparent ;
+    -fx-cursor:hand
+}
+.close:hover{
+    -fx-background-color: black;
+}
+.minimize{
+    -fx-background-color: transparent ;
+    -fx-cursor:hand
+}
+.minimize:hover{
+    -fx-background-color: black;
+}
+.nav-from{
+    -fx-background-color: linear-gradient(to top right, #a18cd1, #fbc2eb);
+
+}
+.nav-btn{
+    -fx-background-color: white;
+    -fx-cursor:hand;
+    -fx-alignment: CENTER_LEFT;
+}
+.nav-btn:hover{
+    -fx-background-color: #fbc2eb;
+}
+.signout{
+
+    -fx-background-color:white;
+    -fx-cursor:hand;
+}
+.signout:hover{
+    -fx-background-color: black;
+}
+.bg-white {
+    -fx-background-color: #fff;
+    -fx-background-radius: 7px;
+    -fx-border-color: transparent;
+    -fx-border-width: 0.5;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,.3), 8, 0, 0, 0);
+}
+.card{
+    -fx-background-color: #a18cd1;
+    -fx-background-radius: 2px 4px 4px 2px;
+
+}
